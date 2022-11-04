@@ -12,6 +12,7 @@ function getRandomColor() {
 const fullNodesRefs = document.querySelectorAll('.full-node')//not live
 
 
+
 async function insertionSort(arr, left, right) {
     const insAfter = arr[left].previousElementSibling;
     const colorStr = getRandomColor()
